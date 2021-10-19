@@ -1,11 +1,11 @@
 {
-  "name": "nlw-heat",
+  "name": "nlw-heat-backend",
   "version": "0.0.0",
   "main": "index.js",
-  "repository": "https://github.com/henriquekirchheck/nlw-heat.git",
+  "repository": "https://github.com/henriquekirchheck/nlw-heat-backend.git",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev --exit-child src/app.ts"
+    "dev": "ts-node-dev --exit-child src/server.ts"
   },
   "dependencies": {
     "@prisma/client": "3.2.1",

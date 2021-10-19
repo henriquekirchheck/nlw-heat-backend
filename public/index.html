@@ -13,6 +13,8 @@
 
     <script>
       const socket = io('http://localhost:8000')
+
+      socket.on("new_message", (data) => console.log(data))
     </script>
   </body>
 </html>
