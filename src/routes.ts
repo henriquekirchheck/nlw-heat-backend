@@ -1,9 +1,9 @@
-import { Router } from 'express'
+import { GetLastNumberOfMessagesController } from './controllers/GetLastNumberOfMessagesController'
 import { AuthenticateUserController } from './controllers/AuthenticateUserController'
 import { CreateMessageController } from './controllers/CreateMessageController'
-import { GetLastNumberOfMessagesController } from './controllers/GetLastNumberOfMessagesController'
 import { ProfileUserController } from './controllers/ProfileUserController'
 import { ensureAuthenticated } from './middleware/ensureAuthenticated'
+import { Router } from 'express'
 
 const router = Router()
 
