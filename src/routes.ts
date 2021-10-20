@@ -13,10 +13,11 @@ router.post(
   ensureAuthenticated,
   new CreateMessageController().handle
 )
+
+router.get('/profile', ensureAuthenticated, new ProfileUserController().handle)
 router.get(
   '/messages/last:NumberOfMessages',
   new GetLastNumberOfMessagesController().handle
 )
-router.get('/profile', ensureAuthenticated, new ProfileUserController().handle)
 
 export { router }
