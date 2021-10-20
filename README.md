@@ -1,2 +1,2 @@
-# nlw-heat
-Programa criado durando a NLW da RocketSeat
+# nlw-heat-backend
+Programa criado durante a NLW da RocketSeat
